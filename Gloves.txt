@@ -1,0 +1,7 @@
+Unit 1-Hand Gloves 
+Components:-
+1.Hand Gloves 
+2.Microcontroller
+3.Flex Sensor
+4.Acceloremeter
+5.Battery

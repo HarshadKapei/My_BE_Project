@@ -7,3 +7,6 @@ Components:-
 3.Relay Circuit
 4.Transformer
 5.Power Supply
+
+Description:-
+Where Home Prototype is act as a home where different appliances will run by hand gesture. 

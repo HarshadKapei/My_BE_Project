@@ -5,3 +5,6 @@ Components:-
 3.Flex Sensor
 4.Acceloremeter
 5.Battery
+
+Description:-
+It is basically a hand gesture base home automation project where we are using hand gesture to control home appliances with the help of this unit we will give hand gesture.

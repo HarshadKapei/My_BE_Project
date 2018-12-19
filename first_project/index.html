@@ -2,179 +2,203 @@
 <html>
 
 <head>
+    <title>ToDoList</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <style>
-        table,th,td
-         {
-
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        input.tasksize
-    width: -webkit-fill-available;
+        input.form-control.small {
+    width: 20px;
+    height: 20px;
 }
     </style>
-    <title>ToDoList</title>
 </head>
 
 <body>
-    <h1 style="font-size: 300%;background-color: powderblue;text-align: center">To Do List</h1>
-    <table width="100%">
-        <tr>
-            <th>Check</th>
-            <th>TaskName</th>
-            <th>Description</th>
-            <th>Priority</th>
-            <th>DueDate</th>
+    <div class="container">
+        <h1>To Do List</h1>
+        <table class="table table-bordered">
+            <!-- For table frist row-->
+            <tr>
+                <!-- For Table Header it is always  bold-->
+                <th>Check</th>
+                <th>TaskName</th>
+                <th>Description</th>
+                <th>Priority</th>
+                <th>DueDate</th>
+            </tr>
+            <!-- For table secound row-->
+            <tr>
+                <!-- For secound row frist column-->
+                <td>
 
-        </tr>
-        <tr>
-            <td>
-                <form action="Check">
-                    <input type="checkbox" name="Check">
-                </form>
-            </td>
-            <td>
-                <form action="TaskName">
-                    <input class="tasksize" type="text" name="TaskName">
-                </form>
-            </td>
-            <td>
-                <form action="Description">
-                    <input class="tasksize" type="text" name="Description">
-                </form>
-            </td>
-            <td>
-                <form action="Priority">
-                    <input class="tasksize" type="text" name="Priority">
-                </form>
-            </td>
-            <td>
-                <form action="Date">
-                    <input type="date" name="Date">
-                </form>
-            </td>
+                    <form action="Check">
+                        <input class="form-control small" type="checkbox" name="Check">
+                    </form>
+                </td>
+                <!-- For secound row secound column-->
+                <td>
+                    <form action="TaskName">
+                        <input class="form-control" class="tasksize" type="text" name="TaskName">
+                    </form>
+                </td>
+                <!-- For secound row thrid column-->
+                <td>
+                    <form action="Description">
+                        <input class="form-control" class="tasksize" type="text" name="Description">
+                    </form>
+                </td>
+                <!-- For secound row fourth column-->
+                <td>
+                    <form action="Priority">
+                        <input class="form-control" class="tasksize" type="text" name="Priority">
+                    </form>
+                </td>
+                <!-- For secound row fivth column-->
+                <td>
+                    <form action="Date">
+                        <input class="form-control" type="date" name="Date">
+                    </form>
+                </td>
 
-        </tr>
-
-        <tr>
-            <td>
-                <form action="Check">
-                    <input type="checkbox" name="Check">
-                </form>
-            </td>
-            <td>
-                <form action="TaskName">
-                    <input class="tasksize" type="text" name="TaskName">
-                </form>
-            </td>
-            <td>
-                <form action="Description">
-                    <input class="tasksize" type="text" name="Description">
-                </form>
-            </td>
-            <td>
-                <form action="Priority">
-                    <input class="tasksize" type="text" name="Priority">
-                </form>
-            </td>
-            <td>
-                <form action="Date">
-                    <input type="date" name="Date">
-                </form>
-            </td>
-
-        </tr>
-        <tr>
-            <td>
-                <form action="Check">
-                    <input type="checkbox" name="Check">
-                </form>
-            </td>
-            <td>
-                <form action="TaskName">
-                    <input class="tasksize" type="text" name="TaskName">
-                </form>
-            </td>
-            <td>
-                <form action="Description">
-                    <input class="tasksize" type="text" name="Description">
-                </form>
-            </td>
-            <td>
-                <form action="Priority">
-                    <input class="tasksize" type="text" name="Priority">
-                </form>
-            </td>
-            <td>
-                <form action="Date">
-                    <input type="date" name="Date">
-                </form>
-            </td>
-
-        </tr>
-        <tr>
-            <td>
-                <form action="Check">
-                    <input type="checkbox" name="Check">
-                </form>
-            </td>
-            <td>
-                <form action="TaskName">
-                    <input class="tasksize" type="text" name="TaskName">
-                </form>
-            </td>
-            <td>
-                <form action="Description">
-                    <input class="tasksize" type="text" name="Description">
-                </form>
-            </td>
-            <td>
-                <form action="Priority">
-                    <input class="tasksize" type="text" name="Priority">
-                </form>
-            </td>
-            <td>
-                <form action="Date">
-                    <input type="date" name="Date">
-                </form>
-            </td>
-
-        </tr>
-        <tr>
-            <td>
-                <form action="Check">
-                    <input type="checkbox" name="Check">
-                </form>
-            </td>
-            <td>
-                <form action="TaskName">
-                    <input class="tasksize" type="text" name="TaskName">
-                </form>
-            </td>
-            <td>
-                <form action="Description">
-                    <input class="tasksize" type="text" name="Description">
-                </form>
-            </td>
-            <td>
-                <form action="Priority">
-                    <input class="tasksize" type="text" name="Priority">
-                </form>
-            </td>
-            <td>
-                <form action="Date">
-                    <input type="date" name="Date">
-                </form>
-            </td>
-
-        </tr>
+            </tr>
 
 
 
+            <!-- For table thrid row-->
+            <tr>
+                <td>
+                    <form action="Check">
+                        <input class="form-control small" type="checkbox" name="Check">
+                    </form>
+                </td>
+                <td>
+                    <form action="TaskName">
+                        <input class="form-control" class="tasksize" type="text" name="TaskName">
+                    </form>
+                </td>
+                <td>
+                    <form action="Description">
+                        <input class="form-control" class="tasksize" type="text" name="Description">
+                    </form>
+                </td>
+                <td>
+                    <form action="Priority">
+                        <input class="form-control" class="tasksize" type="text" name="Priority">
+                    </form>
+                </td>
+                <td>
+                    <form action="Date">
+                        <input class="form-control" type="date" name="Date">
+                    </form>
+                </td>
+
+            </tr>
 
 
 
-    </table>
+            <!-- For table fourth row-->
+            <tr>
+                <td>
+                    <form action="Check">
+                        <input class="form-control small" type="checkbox" name="Check">
+                    </form>
+                </td>
+                <td>
+                    <form action="TaskName">
+                        <input class="form-control" class="tasksize" type="text" name="TaskName">
+                    </form>
+                </td>
+                <td>
+                    <form action="Description">
+                        <input class="form-control" class="tasksize" type="text" name="Description">
+                    </form>
+                </td>
+                <td>
+                    <form action="Priority">
+                        <input class="form-control" class="tasksize" type="text" name="Priority">
+                    </form>
+                </td>
+                <td>
+                    <form action="Date">
+                        <input class="form-control" type="date" name="Date">
+                    </form>
+                </td>
+
+            </tr>
+
+
+
+            <!-- For table fivth row-->
+            <tr>
+                <td>
+                    <form action="Check">
+                        <input class="form-control small" type="checkbox" name="Check">
+                    </form>
+                </td>
+                <td>
+                    <form action="TaskName">
+                        <input class="form-control" class="tasksize" type="text" name="TaskName">
+                    </form>
+                </td>
+                <td>
+                    <form action="Description">
+                        <input class="form-control" class="tasksize" type="text" name="Description">
+                    </form>
+                </td>
+                <td>
+                    <form action="Priority">
+                        <input class="form-control" class="tasksize" type="text" name="Priority">
+                    </form>
+                </td>
+                <td>
+                    <form action="Date">
+                        <input class="form-control" type="date" name="Date">
+                    </form>
+                </td>
+
+            </tr>
+
+
+            <!-- For table sixth row-->
+            <tr>
+                <td>
+                    <form action="Check">
+                        <input class="form-control small" type="checkbox" name="Check">
+                    </form>
+                </td>
+                <td>
+                    <form action="TaskName">
+                        <input class="form-control" class="tasksize" type="text" name="TaskName">
+                    </form>
+                </td>
+                <td>
+                    <form action="Description">
+                        <input class="form-control" class="tasksize" type="text" name="Description">
+                    </form>
+                </td>
+                <td>
+                    <form action="Priority">
+                        <input class="form-control" class="tasksize" type="text" name="Priority">
+                    </form>
+                </td>
+                <td>
+                    <form action="Date">
+                        <input class="form-control" type="date" name="Date">
+                    </form>
+                </td>
+
+            </tr>
+
+        </table>
+        <form action="dc">
+            <input class="btn btn-primary" type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+
+
 
 
 

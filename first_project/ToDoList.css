@@ -1,0 +1,19 @@
+h1 {
+    font-size: 300%;
+    background-color: aqua;
+    text-align: center;
+
+}
+
+table,
+th,
+td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tasksize {
+    width: -webkit-fill-available;
+}
+
